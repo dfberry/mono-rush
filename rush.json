@@ -4,7 +4,7 @@
   "pnpmVersion": "6.7.1",
   "nodeSupportedVersionRange": ">=14.0.0",
   "gitPolicy": {},
-  "repository": {},
+  "repository": { "url": "https://github.com/dfberry/mono-rush.git" },
   "eventHooks": {
     "preRushInstall": [],
     "postRushInstall": [],
@@ -14,11 +14,11 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "@dfb/types",
+      "packageName": "@dfb/mono-rush-types",
       "projectFolder": "packages/types"
     },
     {
-      "packageName": "@dfb/functions",
+      "packageName": "@dfb/mono-rush-functions",
       "projectFolder": "packages/functions"
     }
   ]

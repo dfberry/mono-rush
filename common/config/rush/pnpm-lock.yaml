@@ -8,7 +8,7 @@ importers:
   ../../packages/functions:
     specifiers:
       '@azberry/az-simple': ^0.2.7
-      '@dfb/types': workspace:^0.0.1
+      '@dfb/mono-rush-types': workspace:^0.0.1
       '@types/node': ^18.11.18
       '@typescript-eslint/eslint-plugin': ^5.47.1
       '@typescript-eslint/parser': ^5.47.1
@@ -21,7 +21,7 @@ importers:
       typescript: ^4.9.4
     dependencies:
       '@azberry/az-simple': 0.2.8
-      '@dfb/types': link:../types
+      '@dfb/mono-rush-types': link:../types
       dotenv: 16.0.3
     devDependencies:
       '@types/node': 18.11.18

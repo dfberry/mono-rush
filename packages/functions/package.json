@@ -1,8 +1,9 @@
 {
-  "name": "@dfb/functions",
+  "name": "@dfb/mono-rush-functions",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b .",
@@ -16,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dfb/types": "workspace:^0.0.1",
+    "@dfb/mono-rush-types": "workspace:^0.0.1",
     "@azberry/az-simple": "^0.2.7",
     "dotenv": "^16.0.3"
   },

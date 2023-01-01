@@ -1,4 +1,4 @@
-import { MyType } from '@dfb/types';
+import { MyType } from '@dfb/mono-rush-types';
 
 export default function myFunction(): MyType {
   return {
