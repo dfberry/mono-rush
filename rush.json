@@ -14,8 +14,12 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "types",
+      "packageName": "@dfb/types",
       "projectFolder": "packages/types"
+    },
+    {
+      "packageName": "@dfb/functions",
+      "projectFolder": "packages/functions"
     }
   ]
 }

@@ -5,6 +5,35 @@ importers:
   .:
     specifiers: {}
 
+  ../../packages/functions:
+    specifiers:
+      '@azberry/az-simple': ^0.2.7
+      '@dfb/types': workspace:^0.0.1
+      '@types/node': ^18.11.18
+      '@typescript-eslint/eslint-plugin': ^5.47.1
+      '@typescript-eslint/parser': ^5.47.1
+      dotenv: ^16.0.3
+      eslint: ^8.30.0
+      eslint-config-prettier: ^8.5.0
+      eslint-plugin-prettier: ^4.2.1
+      parcel: ^2.8.2
+      prettier: ^2.8.1
+      typescript: ^4.9.4
+    dependencies:
+      '@azberry/az-simple': 0.2.8
+      '@dfb/types': link:../types
+      dotenv: 16.0.3
+    devDependencies:
+      '@types/node': 18.11.18
+      '@typescript-eslint/eslint-plugin': 5.47.1_05da8f9785354fe9ae8569fc7b1a482c
+      '@typescript-eslint/parser': 5.47.1_eslint@8.31.0+typescript@4.9.4
+      eslint: 8.31.0
+      eslint-config-prettier: 8.5.0_eslint@8.31.0
+      eslint-plugin-prettier: 4.2.1_bcd34b390123810054555341b70af70d
+      parcel: 2.8.2
+      prettier: 2.8.1
+      typescript: 4.9.4
+
   ../../packages/types:
     specifiers:
       '@azberry/az-simple': ^0.2.7
