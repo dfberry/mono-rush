@@ -1,8 +1,9 @@
 {
-  "name": "types",
+  "name": "@dfb/mono-rush-types",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
+  "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b .",

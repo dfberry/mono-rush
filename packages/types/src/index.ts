@@ -4,4 +4,10 @@ type MyType = {
   second: number;
 };
 
-export { MyType };
+type MyType2 = {
+  first: string | undefined;
+
+  second: number | undefined;
+};
+
+export { MyType, MyType2 };
