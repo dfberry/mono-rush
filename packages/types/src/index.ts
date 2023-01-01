@@ -1,5 +1,6 @@
 type MyType = {
   first: string;
+
   second: number;
 };
 
